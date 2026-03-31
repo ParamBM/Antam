@@ -254,6 +254,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 #navbar.nav-transparent .btn-outline { border-color: rgba(255,255,255,0.6); color: var(--white); }
 #navbar.nav-transparent .btn-outline:hover { background: rgba(255,255,255,0.15); }
 
+#navbar.nav-scrolled .btn-outline { border-color: var(--primary-blue); color: var(--primary-blue); }
+#navbar.nav-scrolled .btn-outline:hover { background: var(--primary-blue); color: var(--white); }
+
 .nav-links {
   display: flex;
   align-items: center;
